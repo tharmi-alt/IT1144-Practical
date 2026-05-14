@@ -1,0 +1,9 @@
+if (condition){
+	//code that runs ONLY if the condition is true
+}
+else if(Another condition){
+	console.log("B");	
+}
+els{
+	console.log("B");	
+}

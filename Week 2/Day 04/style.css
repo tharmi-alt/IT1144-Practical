@@ -1,0 +1,21 @@
+h1
+{color:pink;
+	background-color:#66b3ff;
+	font-size: 50px;
+	padding: 10px;
+	margin: 20px;
+	border:15px dotted yellow }
+
+h2{color:blue;
+	background-color:#80ff80;
+	font-size: 40px;
+	padding: 15px;
+	margin: 30px;
+	border:10px double brown   } 
+
+p{color:red;
+	background-color:#ff4d94;
+	font-size:50px;
+	padding: 10px;
+	margin: 20px;
+	border:15px dashed blue }
