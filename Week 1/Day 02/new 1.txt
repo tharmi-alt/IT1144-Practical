@@ -1,9 +1,0 @@
-<html>
-<head><title>Image uploding</title>
-</head>
-<body>
-<h1><b>Mr.Bean-The Funny Character</b></h1><br><hr>
-
-
-</body>
-</html>
