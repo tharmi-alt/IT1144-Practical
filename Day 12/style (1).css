@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+}
+.image{
+    width:500px;
+    height:200px;
+    align-items: center;
+    padding: 10px;
+    display: block;
+    margin:auto;
+}
+a
+{
+color:white;
+    text-decoration:none;	color:blue;
+}
+li{
+    list-style:none;
+    display: inline;
+    padding: 80px ;
+
+}
+nav{
+    text-align: center;
+   background-color:lightblue;
+    padding: 5px;
+    margin:100px;
+}
+
+a:hover{
+    color:red;
+	background-color:black;
+	
+}
+p{
+    text-align: center;
+    
+}
+.logo{
+    background-color: lightblue;
+
+}
+body{
+    background-color: lightblue;
+}
+.dive{
+	display:flex;
+	justify-content:space-between;
+}
+.hi{
+	
+	
+}

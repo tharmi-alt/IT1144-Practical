@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+.image{
+    width:500px;
+    height:200px;
+    align-items: center;
+    padding: 10px;
+    display: block;
+    margin:auto;
+}
+a
+{
+color:white;
+    text-decoration:none;
+}
+li{
+    list-style:none;
+    display: inline;
+    padding: 80px ;
+}
+nav{
+    text-align: center;
+    background-color:blue;
+    color: white;
+    padding: 5px;
+    margin:100px;
+}
+*{
+    
+}
+a:hover{
+    color:yellow;
+}
+p{
+    text-align: center;
+    
+}
+.logo{
+    background-color: lightblue;
+
+}
+body{
+    background-color: lightblue;
+}
