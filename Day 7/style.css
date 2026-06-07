@@ -1,0 +1,60 @@
+.logo{
+	width:200px;
+	
+}
+button{
+	 background-color: #1E3A8A;
+	 color:#F9FAFB ;
+	 border:1px solid  ;
+	 margin:20px 20px 20px 20px;
+	 border-radius:5px;
+	 text-decoration:none;
+	 
+ }
+ button:hover{
+	 background-color:#162F6A;
+ }
+a{
+	color:white;
+	text-decoration:none;
+		
+
+}
+header{
+	text-align:center;
+	background-color:#F1F5F9 ;
+}
+h1{
+	background-color:#1E3A8A;
+	color:#F9FAFB;
+}
+.track{
+	
+}
+.box{
+	border:4px solid gray;
+	padding:10px;
+	margin:10px;
+	border-radius:10px;
+	box-shadow:5px 5px 5px gray;
+	background-color:(rgba(255,255,255,0.9));
+	text-align:justify;
+}
+.photo{
+	display:flex;
+	justify-content:space-between;
+	
+}
+.fir{
+	margin:0px 0px 0px 450px;
+	border:10px solid black;
+	border-radius:5px;
+}
+.sec{
+	margin:0px 400px 0px 0px;
+}
+footer{
+	text-align:center;
+	background-color:#1E3A8A ;
+	color:#F9FAFB;
+}
