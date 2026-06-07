@@ -1,3 +1,0 @@
-&& ->  AND   // both must be ture
-||  -> OR  // either one is true
-!  -> NOT   // flips the value
