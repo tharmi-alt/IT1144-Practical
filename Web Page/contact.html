@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>GLOBEL BASE | Contact Us</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="dark">
+
+<!-- HEADER -->
+
+<header>
+    <nav class="navbar">
+
+        <div class="logo">
+            GLOBEL BASE
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+
+        </ul>
+
+        <button id="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+
+    </nav>
+</header>
+
+<!-- HERO -->
+
+<section class="page-hero">
+
+    <div class="hero-content">
+
+        <h1>Contact Us</h1>
+
+        <p>
+            We are here to help you find the right
+            motorcycle spare parts and accessories.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- CONTACT SECTION -->
+
+<section class="contact-section">
+
+    <div class="contact-grid">
+
+        <!-- Contact Form -->
+
+        <div class="contact-form">
+
+            <h2>Send Us a Message</h2>
+
+            <form>
+
+                <div class="form-group">
+                    <input type="text"
+                    id="name"
+                    placeholder="Full Name"
+                    required>
+                </div>
+
+                <div class="form-group">
+                    <input type="email"
+                    id="email"
+                    placeholder="Email Address"
+                    required>
+                </div>
+
+                <div class="form-group">
+                    <input type="tel"
+                    id="phone"
+                    placeholder="Phone Number"
+                    required>
+                </div>
+
+                <div class="form-group">
+                    <textarea rows="6"
+                    id="message"
+                    placeholder="Your Message"
+                    required></textarea>
+                </div>
+
+                <button type="button" onclick="sendMessage()" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+        <!-- Contact Information -->
+
+        <div class="contact-info">
+
+            <h2>Contact Information</h2>
+
+            <div class="info-box">
+
+                <i class="fas fa-map-marker-alt"></i>
+
+                <div>
+                    <h3>Address</h3>
+                    <p>
+                        Sudarshana car mart<br>
+                        pathispura,Kandy road<br>
+                        Trincomalee,Sri Lanka
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="info-box">
+
+                <i class="fas fa-phone"></i>
+
+                <div>
+                    <h3>Phone</h3>
+                    <p>+94 77 111 1435</p>
+                </div>
+
+            </div>
+
+            <div class="info-box">
+
+                <i class="fas fa-envelope"></i>
+
+                <div>
+                    <h3>Email</h3>
+                    <p>Globelbase123@gmail.com</p>
+                </div>
+
+            </div>
+
+            <div class="info-box">
+
+                <i class="fas fa-clock"></i>
+
+                <div>
+                    <h3>Working Hours</h3>
+                    <p>
+                        Saturday - Thursday<br>
+                        9.00 AM - 7.00 PM
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- GOOGLE MAP -->
+
+<section class="map-section">
+
+    <h2>Our Location</h2>
+
+    <div class="map-container">
+
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.095849838742!2d81.19716907478835!3d8.586782691457968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afbbd00137f88ef%3A0x2112ba719c6e1172!2sGlobal%20base!5e0!3m2!1sen!2slk!4v1781362913898!5m2!1sen!2slk"
+         width="100%" 
+         height="400" 
+         style="border:0;" 
+         allowfullscreen="" 
+         loading="lazy" 
+         referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+
+</section>
+
+<!-- SOCIAL MEDIA -->
+
+<section class="social-section">
+
+    <h2>Follow Us</h2>
+
+    <p>
+        <center> 
+        Stay connected for new arrivals,
+        offers and updates.
+        </center>
+
+    </p>
+
+    <div class="social-large">
+
+        <a href="https://www.facebook.com/share/18z1jhyocz/" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-youtube"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-tiktok"></i>
+        </a>
+
+    </div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta">
+
+    <h2>
+        Need Genuine Motorcycle Parts?
+    </h2>
+
+    <p>
+        Contact our team today for assistance.
+    </p>
+
+    <a href="products.html" class="btn">
+        View Products
+    </a>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <h3>GLOBEL BASE</h3>
+
+        <p>
+            Quality Motorcycle Spare Parts &
+            Accessories Supplier.
+        </p>
+
+        <div class="social">
+
+            <a href="https://www.facebook.com/share/18z1jhyocz/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-youtube"></i>
+            </a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Bike Parts Hub. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
